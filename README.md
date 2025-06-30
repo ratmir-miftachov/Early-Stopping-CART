@@ -66,6 +66,7 @@ early-stopping-regression-tree/
 │   ├── low_dim_heatmaps.py       # Visualization of low-dimensional examples
 │   └── tree_stopping_gif.py      # Animation of tree growth with early 
 
+
 ## Installation
 
 1. Clone the repository:
