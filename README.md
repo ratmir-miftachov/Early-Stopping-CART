@@ -21,9 +21,10 @@ early-stopping-cart/
 │   ├── ozone_clean.csv           # Ozone dataset
 │   └── Servo.csv                 # Servo dataset
 ├── experiments/
-│   ├── empirical_evaluation.py   # Empirical evaluation on real datasets
+│   ├── empirical_application.py   # Empirical evaluation on real datasets
 │   ├── simulation_MSE_tables.py   # MSE comparison tables
-│   ├── simulation_rel_eff_boxplots.py  # Relative efficiency boxplots
+│   └── simulation_rel_eff_boxplots.py  # Relative efficiency boxplots
+├── visualization/
 │   ├── low_dim_heatmaps.py       # Visualization of low-dimensional examples
 │   └── tree_stopping_gif.py      # Animation of tree growth with early stopping
 └── scripts/                       # Main runner scripts (optional)
@@ -94,9 +95,9 @@ Run empirical analysis on real datasets:
 import sys
 sys.path.append('experiments')
 sys.path.append('src')
-import empirical_evaluation
+import empirical_application
 
-# The empirical_evaluation.py script contains functions for:
+# The empirical_application.py script contains functions for:
 # - Loading real datasets (Boston, Communities, Servo, Ozone)
 # - Comparing early stopping with other methods
 # - Generating performance tables and visualizations
@@ -170,12 +171,12 @@ python simulation_rel_eff_boxplots.py
 2. **Empirical Applications:**
 ```bash
 cd experiments
-python empirical_evaluation.py
+python empirical_application.py
 ```
 
 3. **Visualizations:**
 ```bash
-cd experiments
+cd visualization
 python low_dim_heatmaps.py
 python tree_stopping_gif.py
 ```
