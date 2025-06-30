@@ -7,7 +7,7 @@ import os
 from PIL import Image
 import glob
 
-def create_gif_from_frames(frames_dir="gif", output_name="tree_stopping_animation.gif", duration=800):
+def create_gif_from_frames(frames_dir="gif", output_name="tree_stopping_animation.gif", duration=1000):
     """
     Create an animated GIF from PNG frames.
     
