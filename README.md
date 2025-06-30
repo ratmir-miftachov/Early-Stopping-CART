@@ -80,27 +80,6 @@ Early-Stopping-Regression-Trees/
     └── tree_stopping_animation.gif # Generated animation
 ```
 
-## Key Features
-
-### **🚀 Performance & Efficiency**
-- **Parallel processing**: Automatic CPU detection for simulations
-- **Progress tracking**: Real-time progress bars with time estimates
-- **Error resilience**: Robust handling of method failures
-- **Fast execution**: 3-5x speedup through optimized parallel processing
-
-### **📊 Multiple Algorithms**
-- **Global Early Stopping**: Main algorithm with discrepancy principle
-- **Semi-Global Early Stopping**: Efficient local criterion approach
-- **Two-Step Procedure**: Hybrid depth estimation + pruning
-- **Interpolation**: Smooth transitions between tree depths
-- **Benchmarks**: Cost complexity pruning, deep trees, balanced oracle
-
-### **🔬 Comprehensive Evaluation**
-- **8 Data Generation Processes**: From simple 2D to complex high-dimensional
-- **Statistical Summaries**: Median results with mean absolute deviation
-- **Professional Output**: Clean CSV files and LaTeX-ready tables
-- **Reproducible Results**: Global random seed configuration
-
 ## Installation
 
 1. Clone the repository:
@@ -114,32 +93,6 @@ cd Early-Stopping-Regression-Trees
 pip install -r requirements.txt
 ```
 
-## Running Experiments
-
-### Simulations
-```bash
-cd experiments/simulations
-python regression_tree_simulation.py
-```
-
-### Empirical Studies
-```bash
-cd experiments/empirical_studies  
-python empirical_application.py
-```
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{miftachov2025early,
-  title={Early Stopping for Regression Trees},
-  author={Miftachov, Ratmir and Rei{\ss}, Markus},
-  journal={arXiv preprint arXiv:2502.04709},
-  year={2025}
-}
-```
 
 ## Contact
 
