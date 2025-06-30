@@ -8,7 +8,7 @@ import sys
 # Add src directory to path for imports
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
-import regression_tree as rt
+import global_regression_tree as rt
 import semiglobal as semi
 
 # Reload modules to ensure changes are applied

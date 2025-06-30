@@ -21,7 +21,7 @@ import os
 import es_mp
 from joblib import Parallel, delayed
 import load_dataset
-import regression_tree as rt
+import global_regression_tree as rt
 
 # Reload modules to ensure changes are applied
 

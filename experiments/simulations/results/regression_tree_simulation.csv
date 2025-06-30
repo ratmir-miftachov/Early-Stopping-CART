@@ -1,0 +1,57 @@
+dataset,method,test_rmse_median,test_rmse_mad,n_leaves_median,fit_time_median
+Additive Hills,Bal_Oracle,1.242,0.018,98.5,12.548
+Additive Hills,Deep,1.439,0.026,1000.0,6.196
+Additive Hills,Global,1.146,0.032,98.5,12.548
+Additive Hills,Global_Interp,1.03,0.051,98.5,12.548
+Additive Hills,Pruning,0.88,0.028,11.5,22.31
+Additive Hills,Semi,1.195,0.039,136.5,5.907
+Additive Hills,Two_Step,0.88,0.028,11.5,12.548
+Additive Linear,Bal_Oracle,1.968,0.021,205.5,16.26
+Additive Linear,Deep,2.018,0.046,1000.0,5.671
+Additive Linear,Global,1.838,0.002,205.5,16.26
+Additive Linear,Global_Interp,1.741,0.006,205.5,16.26
+Additive Linear,Pruning,1.581,0.052,27.0,25.359
+Additive Linear,Semi,1.8,0.027,137.0,7.359
+Additive Linear,Two_Step,1.589,0.06,26.5,16.26
+Additive Smooth,Bal_Oracle,2.073,0.016,223.5,17.197
+Additive Smooth,Deep,2.129,0.023,1000.0,6.057
+Additive Smooth,Global,1.974,0.045,223.5,17.197
+Additive Smooth,Global_Interp,1.909,0.033,223.5,17.197
+Additive Smooth,Pruning,1.7,0.021,24.5,30.011
+Additive Smooth,Semi,1.936,0.022,146.5,7.939
+Additive Smooth,Two_Step,1.7,0.021,24.5,17.197
+Additive Step,Bal_Oracle,1.678,0.082,198.5,16.479
+Additive Step,Deep,1.759,0.042,1000.0,5.826
+Additive Step,Global,1.606,0.094,198.5,16.479
+Additive Step,Global_Interp,1.563,0.083,198.5,16.479
+Additive Step,Pruning,1.43,0.057,35.0,25.645
+Additive Step,Semi,1.574,0.086,118.0,7.299
+Additive Step,Two_Step,1.424,0.042,36.0,16.479
+Circular,Bal_Oracle,0.115,0.016,8.0,1.937
+Circular,Deep,1.045,0.054,1000.0,1.615
+Circular,Global,0.2,0.142,8.0,1.937
+Circular,Global_Interp,0.167,0.108,8.0,1.937
+Circular,Pruning,0.202,0.058,5.5,7.832
+Circular,Semi,0.235,0.103,15.0,0.235
+Circular,Two_Step,0.202,0.058,5.5,1.937
+Rectangular,Bal_Oracle,0.115,0.016,8.0,1.768
+Rectangular,Deep,1.045,0.054,1000.0,1.468
+Rectangular,Global,0.2,0.142,8.0,1.768
+Rectangular,Global_Interp,0.167,0.108,8.0,1.768
+Rectangular,Pruning,0.202,0.058,5.5,6.978
+Rectangular,Semi,0.235,0.103,15.0,0.232
+Rectangular,Two_Step,0.202,0.058,5.5,1.768
+Sine Cosine,Bal_Oracle,0.107,0.031,8.0,1.636
+Sine Cosine,Deep,1.088,0.071,1000.0,1.391
+Sine Cosine,Global,0.189,0.113,8.0,1.636
+Sine Cosine,Global_Interp,0.145,0.069,8.0,1.636
+Sine Cosine,Pruning,0.226,0.077,6.5,7.188
+Sine Cosine,Semi,0.232,0.094,9.0,0.247
+Sine Cosine,Two_Step,0.155,0.006,3.5,1.636
+Smooth Signal,Bal_Oracle,0.143,0.034,8.0,1.743
+Smooth Signal,Deep,1.045,0.049,1000.0,1.437
+Smooth Signal,Global,0.206,0.099,8.0,1.743
+Smooth Signal,Global_Interp,0.163,0.056,8.0,1.743
+Smooth Signal,Pruning,0.18,0.071,5.0,6.255
+Smooth Signal,Semi,0.177,0.077,9.5,0.274
+Smooth Signal,Two_Step,0.105,0.005,2.0,1.743
