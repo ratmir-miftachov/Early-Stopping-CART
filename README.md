@@ -9,7 +9,7 @@ We develop early stopping rules for growing regression tree estimators. The full
 ## 🏗️ Repository Structure
 
 ```
-early-stopping-cart/
+early-stopping-regression-tree/
 ├── README.md
 ├── requirements.txt               # Python dependencies
 ├── src/
@@ -45,8 +45,8 @@ early-stopping-cart/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/ratmir-miftachov/Early-Stopping-CART.git
-cd Early-Stopping-CART
+git clone https://github.com/ratmir-miftachov/Early-Stopping-Regression-Tree.git
+cd Early-Stopping-Regression-Tree
 ```
 
 2. Install dependencies:
@@ -206,4 +206,4 @@ This project is available under standard academic usage terms. Please cite the p
 ## 🔗 Links
 
 - [arXiv Paper](https://arxiv.org/abs/2502.04709)
-- [GitHub Repository](https://github.com/ratmir-miftachov/Early-Stopping-CART)
+- [GitHub Repository](https://github.com/ratmir-miftachov/Early-Stopping-Regression-Tree)
