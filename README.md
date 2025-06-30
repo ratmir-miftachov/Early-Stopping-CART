@@ -2,6 +2,14 @@
 
 This repository contains the implementation code for the paper [**"Early Stopping for Regression Trees"**](https://arxiv.org/abs/2502.04709) by Ratmir Miftachov and Markus Reiß.
 
+## Visualization
+
+The animation demonstrates the progression of the regression tree estimator, comparing global and semi-global early stopping approaches on a 2D rectangular function.
+
+![Tree Growth Animation](visualization/tree_stopping_animation.gif)
+
+
+
 ## Abstract
 
 We develop early stopping rules for growing regression tree estimators. The fully data-driven stopping rule is based on monitoring the global residual norm. The best-first search and the breadth-first search algorithms together with linear interpolation give rise to generalized projection or regularization flows. A general theory of early stopping is established. Oracle inequalities for the early-stopped regression tree are derived without any smoothness assumption on the regression function, assuming the original CART splitting rule, yet with a much broader scope. The remainder terms are of smaller order than the best achievable rates for Lipschitz functions in dimension d≥2. In real and synthetic data the early stopping regression tree estimators attain the statistical performance of cost-complexity pruning while significantly reducing computational costs.
@@ -70,14 +78,6 @@ predictions = tree.predict(X_test, depth=stopping_depth)
 print(f"Optimal stopping depth: {stopping_depth}")
 print(f"Test predictions: {predictions[:5]}")
 ```
-
-## Visualization
-
-The following animation shows how the regression tree grows and how different stopping criteria (global vs semi-global) affect the resulting estimator:
-
-![Tree Growth Animation](visualization/tree_stopping_animation.gif)
-
-*The animation demonstrates the progression of the regression tree estimator, comparing global and semi-global early stopping approaches on a 2D rectangular function.*
 
 ## Contact
 
