@@ -71,6 +71,14 @@ print(f"Optimal stopping depth: {stopping_depth}")
 print(f"Test predictions: {predictions[:5]}")
 ```
 
+## Visualization
+
+The following animation shows how the regression tree grows and how different stopping criteria (global vs semi-global) affect the resulting estimator:
+
+![Tree Growth Animation](visualization/tree_stopping_animation.gif)
+
+*The animation demonstrates the progression of the regression tree estimator, comparing global and semi-global early stopping approaches on a 2D rectangular function.*
+
 ## Contact
 
 - **Ratmir Miftachov**: contact[at]miftachov.com
