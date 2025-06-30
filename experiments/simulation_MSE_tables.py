@@ -7,6 +7,10 @@ for name in list(globals()):
 import numpy as np
 import os
 import importlib
+import sys
+
+# Add src directory to path for imports
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import GridSearchCV, KFold
 import CARTRM as RM

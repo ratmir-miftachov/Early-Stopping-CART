@@ -3,6 +3,11 @@ for name in list(globals()):
     if not name.startswith('_'):
         del globals()[name]
 
+# Add src directory to path for imports
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
+
 # Import required libraries and modules
 import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeRegressor

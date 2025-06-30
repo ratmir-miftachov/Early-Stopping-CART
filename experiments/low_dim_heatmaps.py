@@ -3,6 +3,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import importlib
 import os
+import sys
+
+# Add src directory to path for imports
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 # Reload modules to ensure changes are applied
 import data_generation

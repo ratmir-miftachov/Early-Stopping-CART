@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import importlib
 import os
+import sys
+
+# Add src directory to path for imports
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
+
 import regression_tree as rt
 import semiglobal as semi
 
