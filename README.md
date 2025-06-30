@@ -47,7 +47,7 @@ print(f"Test predictions: {predictions[:5]}")
 ## Repository Structure
 
 ```
-early-stopping-regression-tree/
+Early-Stopping-Regression-Trees/
 ├── README.md
 ├── requirements.txt               # Python dependencies
 ├── src/
@@ -62,9 +62,13 @@ early-stopping-regression-tree/
 │   ├── empirical_application.py   # Empirical evaluation on real datasets
 │   ├── simulation_MSE_tables.py   # MSE comparison tables
 │   └── simulation_rel_eff_boxplots.py  # Relative efficiency boxplots
-├── visualization/
-│   ├── low_dim_heatmaps.py       # Visualization of low-dimensional examples
-│   └── tree_stopping_gif.py      # Animation of tree growth with early 
+└── visualization/
+    ├── low_dim_heatmaps.py        # Visualization of low-dimensional examples
+    ├── tree_stopping_gif.py       # Animation of tree growth with early stopping
+    ├── create_gif_from_frames.py  # Script to create GIF from PNG frames
+    ├── gif/                       # Directory containing animation frames
+    └── tree_stopping_animation.gif # Generated animation
+``` 
 
 
 ## Installation
