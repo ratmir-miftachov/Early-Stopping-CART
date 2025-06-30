@@ -28,8 +28,6 @@ early-stopping-regression-tree/
 │   ├── low_dim_heatmaps.py       # Visualization of low-dimensional examples
 │   └── tree_stopping_gif.py      # Animation of tree growth with early 
 
-## Installation
-
 ### Setup
 
 1. Clone the repository:
@@ -44,8 +42,6 @@ pip install -r requirements.txt
 ```
 
 ## Quick Start
-
-### Basic Usage
 
 ```python
 import numpy as np
@@ -64,7 +60,7 @@ tree = rt.RegressionTree(design=X, response=y, min_samples_split=2)
 tree.iterate(max_depth=10)
 
 # Find optimal stopping point using discrepancy principle
-kappa = 0.1  # Critical value
+kappa = 0.1  # Critical value (usually estimated with nearest neighbour estimator)
 stopping_depth = tree.get_discrepancy_stop(critical_value=kappa)
 
 # Make predictions
@@ -77,7 +73,7 @@ print(f"Test predictions: {predictions[:5]}")
 
 ## Contact
 
-- **Ratmir Miftachov**: contact [at] miftachov.com
-- **Markus Reiß**: reismark [at] hu-berlin.de
+- **Ratmir Miftachov**: contact[at]miftachov.com
+- **Markus Reiß**: reismark[at]hu-berlin.de
 
 
